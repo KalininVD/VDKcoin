@@ -16,3 +16,6 @@ def sync():
           block_object = Block(block_info)
           node_blocks.append(block_object)
   return node_blocks
+
+if __name__ == '__main__':
+  sync()
